@@ -4,23 +4,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Muktikanta Tripathy | Portfolio</title>
 
     <link rel="stylesheet" href="style.css">
 
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
 
+    <!-- Font Awesome (Icons) -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
+    <!-- Dev Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+
+    <!-- Scroll Reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
 
 </head>
 
 <body>
 
+    <!-- Scroll Progress Bar -->
+    <div class="scroll-bar"></div>
+
     <!-- ================= NAVBAR ================= -->
+
     <header>
         <nav class="navbar">
+
             <h2 class="logo">Muktikanta Tripathy</h2>
 
             <ul class="nav-links" id="navLinks">
@@ -28,31 +39,38 @@
                 <li><a href="#about">About</a></li>
                 <li><a href="#education">Education</a></li>
                 <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
 
             <div class="menu-icon" id="menuIcon">
-                <i class="fas fa-ellipsis-v"></i>
+                <i class="fas fa-bars"></i>
             </div>
+
         </nav>
     </header>
 
+
     <!-- ================= HERO ================= -->
+
     <section id="home" class="hero">
+
         <div class="hero-container">
 
             <div class="hero-text">
+
                 <h1>Hi, I'm <span class="highlight-name">Muktikanta Tripathy</span></h1>
 
                 <h2 class="typing-text">
                     <span id="typing"></span><span class="cursor">|</span>
                 </h2>
 
-                <p>Full Stack Developer specializing in Java .</p>
+                <p>Full Stack Developer specializing in Java.</p>
 
                 <a href="Muktikanta_Tripathy_Final_Resume.pdf" download class="btn hero-btn">
                     Download Resume
                 </a>
+
             </div>
 
             <div class="hero-image">
@@ -60,34 +78,46 @@
             </div>
 
         </div>
+
     </section>
 
+
     <!-- ================= ABOUT ================= -->
+
     <section id="about" class="about-section">
+
         <div class="section-wrapper">
+
             <h2 class="section-title">About Me</h2>
+
             <p>
-                Hii, I am <span class="highlight-name"><b><i>Muktikanta Tripathy</i></b></span>,
-                pursuing Master of Computer Applications (MCA) at Centurion University of Technology and Management,
-                with
-                a strong focus on Full Stack
-                Development, specializing in Java and the MERN stack. Passionate about technology
-                and innovation, I enjoy designing and building applications that are both scalable
-                and performance-driven.
+
+                Hi, I am <span class="highlight-name"><b><i>Muktikanta Tripathy</i></b></span>,
+                pursuing Master of Computer Applications (MCA) at Centurion University of Technology and Management.
 
                 <br><br>
 
-                I possess a solid understanding of software development principles, including
-                Object-Oriented Programming, RESTful APIs, and database management. Through
-                academic projects and continuous self-learning, I have strengthened my ability
-                to develop modern web applications and backend systems.
+                I focus on Full Stack Development, specializing in Java and the MERN stack.
+                I enjoy designing and building scalable and performance-driven applications.
+
+                <br><br>
+
+                I have strong knowledge in Object-Oriented Programming, REST APIs,
+                and database management.
+
             </p>
+
         </div>
+
     </section>
 
+
     <!-- ================= EDUCATION ================= -->
+
     <section id="education" class="education-section">
+
         <div class="section-wrapper">
+
             <h2 class="section-title">Education</h2>
 
             <div class="education-container">
@@ -95,7 +125,7 @@
                 <div class="edu-card">
                     <div>
                         <h3>Master of Computer Application (MCA)</h3>
-                        <p>Centurion University of Technology & Management, Bhubaneswar, Odisha</p>
+                        <p>Centurion University of Technology & Management, Bhubaneswar</p>
                     </div>
                     <span class="edu-year">Ongoing</span>
                 </div>
@@ -103,7 +133,7 @@
                 <div class="edu-card">
                     <div>
                         <h3>B.Sc in Physics</h3>
-                        <p>Avantika Degree College, Bhadrak, Odisha</p>
+                        <p>Avantika Degree College, Bhadrak</p>
                     </div>
                     <span class="edu-year">2021 – 2024</span>
                 </div>
@@ -111,7 +141,7 @@
                 <div class="edu-card">
                     <div>
                         <h3>Higher Secondary (12th)</h3>
-                        <p>Charampa Higher Secondary School, Bhadrak, Odisha</p>
+                        <p>Charampa Higher Secondary School</p>
                     </div>
                     <span class="edu-year">2019 – 2021</span>
                 </div>
@@ -119,33 +149,32 @@
                 <div class="edu-card">
                     <div>
                         <h3>Secondary (10th)</h3>
-                        <p>Panchamuka Nodal High School, Jaleswarpur, Odisha</p>
+                        <p>Panchamuka Nodal High School</p>
                     </div>
                     <span class="edu-year">2019</span>
                 </div>
 
             </div>
+
         </div>
+
     </section>
 
+
     <!-- ================= SKILLS ================= -->
+
     <section id="skills" class="skills-section">
+
         <div class="section-wrapper">
+
             <h2 class="section-title">Skills</h2>
 
             <div class="skills-grid">
 
-                <!-- Initial 8 Skills -->
-                <div class="skill-card extra-skill"><i class="devicon-nodejs-plain colored"></i>
-                    <h3>Node.js</h3>
-                </div>
-                <div class="skill-card extra-skill"><i class="devicon-express-original colored"></i>
-                    <h3>Express.js</h3>
-                </div>
-
                 <div class="skill-card"><i class="devicon-javascript-plain colored"></i>
                     <h3>JavaScript</h3>
                 </div>
+
                 <div class="skill-card"><i class="devicon-react-original colored"></i>
                     <h3>React</h3>
                 </div>
@@ -153,27 +182,31 @@
                 <div class="skill-card"><i class="devicon-java-plain colored"></i>
                     <h3>Java</h3>
                 </div>
+
                 <div class="skill-card"><i class="devicon-angularjs-plain colored"></i>
                     <h3>Angular</h3>
                 </div>
+
                 <div class="skill-card"><i class="devicon-spring-plain colored"></i>
                     <h3>Spring Boot</h3>
                 </div>
+
                 <div class="skill-card"><i class="devicon-mysql-plain colored"></i>
                     <h3>MySQL</h3>
                 </div>
 
-                <!-- Hidden Skills -->
-                <div class="skill-card"><i class="devicon-html5-plain colored"></i>
-                    <h3>HTML</h3>
+                <div class="skill-card extra-skill"><i class="devicon-nodejs-plain colored"></i>
+                    <h3>Node.js</h3>
                 </div>
-                <div class="skill-card"><i class="devicon-css3-plain colored"></i>
-                    <h3>CSS</h3>
+
+                <div class="skill-card extra-skill"><i class="devicon-express-original colored"></i>
+                    <h3>Express.js</h3>
                 </div>
 
                 <div class="skill-card extra-skill"><i class="devicon-mongodb-plain colored"></i>
                     <h3>MongoDB</h3>
                 </div>
+
                 <div class="skill-card extra-skill"><i class="devicon-hibernate-plain colored"></i>
                     <h3>Hibernate</h3>
                 </div>
@@ -181,6 +214,7 @@
                 <div class="skill-card extra-skill"><i class="devicon-java-plain colored"></i>
                     <h3>Servlet</h3>
                 </div>
+
                 <div class="skill-card extra-skill"><i class="devicon-java-plain colored"></i>
                     <h3>JDBC</h3>
                 </div>
@@ -192,25 +226,64 @@
             </div>
 
         </div>
+
     </section>
 
-    <!-- ================= CONTACT ================= -->
-    <section id="contact">
+
+    <!-- ================= PROJECTS ================= -->
+
+    <section id="projects" class="projects-section">
+
         <div class="section-wrapper">
+
+            <h2 class="section-title">Projects</h2>
+
+            <div class="projects-grid">
+
+                <div class="project-card">
+                    <h3>Portfolio Website</h3>
+                    <p>Responsive portfolio using HTML, CSS, JavaScript.</p>
+                    <a href="https://github.com/MUKTIKANTATRIPATHY/My-Portfolio" target="_blank">Viev Code</a>
+                </div>
+
+                <div class="project-card">
+                    <h3>Java Calculator</h3>
+                    <p>A Responsive food delivery website using MERN Stack.</p>
+                    <a href="https://github.com/MUKTIKANTATRIPATHY/Food-delivery-app" target="_blank">GitHub</a>
+                </div>
+
+                <div class="project-card">
+                    <h3>Contact Form</h3>
+                    <p>An Airline Management System Website using Java Swing. </p>
+                    <a href="https://github.com/MUKTIKANTATRIPATHY/AirlineManagementSystem.java" target="_blank">GitHub</a>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= CONTACT ================= -->
+
+    <section id="contact">
+
+        <div class="section-wrapper">
+
             <h2 class="section-title">Contact Me</h2>
 
             <div class="contact-container">
 
-                <!-- LEFT SIDE -->
                 <div class="contact-left">
+
                     <h3>Let's Connect</h3>
 
-                    <div class="contact-info">
-                        <p><i class="fas fa-envelope"></i> muktikantatripathy2018@gmail.com</p>
-                        <p><i class="fas fa-phone"></i> 9178768044</p>
-                    </div>
+                    <p><i class="fas fa-envelope"></i> muktikantatripathy2018@gmail.com</p>
+                    <p><i class="fas fa-phone"></i> 9178768044</p>
 
                     <div class="social-icons">
+
                         <a href="https://www.linkedin.com/in/muktikantatripathy/" target="_blank">
                             <i class="fab fa-linkedin-in"></i>
                         </a>
@@ -223,70 +296,61 @@
                             <i class="fas fa-envelope"></i>
                         </a>
 
+                        <a href="https://instagram.com/muktikanta_tripathy03" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+
                     </div>
+
                 </div>
 
-                <!-- RIGHT SIDE -->
+
                 <div class="contact-right">
+
                     <form id="contactForm" name="Contact-me Form">
+
                         <input type="text" name="Name" placeholder="Your Name" required>
+
                         <input type="email" name="Email" placeholder="Your Email" required>
+
                         <textarea name="Message" placeholder="Your Message" rows="5" required></textarea>
+
                         <button type="submit" class="btn small-btn">Submit</button>
+
                     </form>
+
                 </div>
 
             </div>
+
         </div>
+
     </section>
+
+
     <!-- Success Popup -->
+
     <div id="successPopup" class="popup">
+
         <div class="popup-content">
+
             <i class="fas fa-check-circle"></i>
+
             <h3>Message Sent Successfully!</h3>
+
             <button onclick="closePopup()">OK</button>
+
         </div>
+
     </div>
 
 
     <footer>
-        <p>© 2026 Muktikanta Tripathy || Portfolio</p>
+        <p>© 2026 Muktikanta Tripathy | Portfolio</p>
     </footer>
 
+
     <script src="script.js"></script>
-
-    //Contact form ecxel sheet
-
-    <!-- <script>
-    const scriptURL =
-        "https://script.google.com/macros/s/AKfycbwdxHegDUfabyDD8TDvQ1YYYO0FryWbSISR6UZckLV--8KdnezTNZL2tRc2M4moUMmGaQ/exec";
-
-    const form = document.getElementById("contactForm");
-    const popup = document.getElementById("successPopup");
-
-    form.addEventListener("submit", function (e) {
-        e.preventDefault();
-
-        fetch(scriptURL, {
-            method: "POST",
-            body: new FormData(form)
-        })
-        .then(response => response.text())
-        .then(() => {
-            // ✅ Show your custom popup
-            popup.style.display = "flex";
-            form.reset();
-        })
-        .catch(error => {
-            console.error("Error:", error);
-        });
-    });
-
-    function closePopup() {
-        popup.style.display = "none";
-    }
-</script> -->
-
 
 </body>
 
