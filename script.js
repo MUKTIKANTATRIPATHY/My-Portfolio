@@ -75,9 +75,9 @@ document.addEventListener("DOMContentLoaded", function () {
     /* ================= TYPING EFFECT ================= */
 
     const roles = [
-        "Java Developer",
-        "Web Designer",
-        "MERN Stack Developer"
+        "Java Developer ",
+        "Web Designer ",
+        "MERN Stack Developer "
     ];
 
     const typingElement = document.getElementById("typing");
